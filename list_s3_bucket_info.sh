@@ -3,14 +3,14 @@
 # This script is quick and dirty.
 # The account name in the account_bucket array must match the profile names in ~/.aws/credentials.
 # Array elements must be comma delimited account name and bucket name.
-# Fill in the array. Ensure there is no white space in the array elements, including trailing spaces.
+# Fill in the array. Ensure there is no white space in the array elements.
 # Run the script.
 
 account_bucket=(
-    dev,bucket_name_1
-    dev,bucket_name_2
-    dev,bucket_name_3
-    prod,bucket_name_4
+    'dev,bucket_name_1'
+    'dev,bucket_name_2'
+    'dev,bucket_name_3'
+    'prod,bucket_name_4'
 )
 
 # analyze buckets
